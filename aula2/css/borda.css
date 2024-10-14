@@ -1,0 +1,25 @@
+body {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    border-width: thin;
+    border-color: #90b872;
+    border-style: solid;
+}
+
+a {
+    border: thick dashed rgb(219, 100, 183);
+}
+
+/* shorthand: passa todas as propriedades numa única linha */
+
+p {
+    width: 250px;
+    height: 200px;
+    border: 5px dotted rgb(179, 29, 31);
+    border-radius: 50px;
+    background-color: #bdbaba;
+    text-align: center;
+}

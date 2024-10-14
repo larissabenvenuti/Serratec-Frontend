@@ -1,0 +1,35 @@
+/* link não visitado */
+.meu-link:link {
+    color: #585858;
+}
+
+/*link visitado */
+.meu-link:visited {
+    color: #000000;
+}
+
+.meu-link:hover {
+    color: #3d3d3d;
+}
+
+.disciplinas {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.disciplinas li {
+    color: #00ff6a;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+.disciplinas li:first-child {
+    color: #ffae00;
+}
+
+.disciplinas li:last-child {
+    color: #ff00f2;
+    border-bottom: none;
+}

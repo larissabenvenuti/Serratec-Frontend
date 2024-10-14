@@ -1,0 +1,19 @@
+.texto1, .texto2, .texto3{
+    text-align: justify;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 500px;
+}
+
+.texto1{
+    box-sizing: content-box;
+    border: 20px solid palevioletred;
+}
+.texto2{
+    box-sizing: border-box;
+    border: 20px solid palegreen;
+}
+.texto3{
+    background-color: paleturquoise;
+    height: 30px;
+}
